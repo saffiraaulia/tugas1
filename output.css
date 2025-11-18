@@ -7,6 +7,10 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-green-50: oklch(98.2% 0.018 155.826);
+    --color-green-100: oklch(96.2% 0.044 156.743);
+    --color-green-600: oklch(62.7% 0.194 149.214);
+    --color-green-950: oklch(26.6% 0.065 152.934);
     --color-blue-50: oklch(97% 0.014 254.604);
     --color-blue-100: oklch(93.2% 0.032 255.585);
     --color-blue-600: oklch(54.6% 0.245 262.881);
@@ -359,17 +363,17 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
-  .border-blue-100 {
-    border-color: var(--color-blue-100);
+  .border-green-100 {
+    border-color: var(--color-green-100);
   }
-  .border-blue-600 {
-    border-color: var(--color-blue-600);
+  .border-green-600 {
+    border-color: var(--color-green-600);
   }
-  .bg-blue-50 {
-    background-color: var(--color-blue-50);
+  .bg-green-50 {
+    background-color: var(--color-green-50);
   }
-  .bg-blue-600 {
-    background-color: var(--color-blue-600);
+  .bg-green-600 {
+    background-color: var(--color-green-600);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -465,12 +469,6 @@
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
   }
-  .text-blue-600 {
-    color: var(--color-blue-600);
-  }
-  .text-blue-950 {
-    color: var(--color-blue-950);
-  }
   .text-gray-500 {
     color: var(--color-gray-500);
   }
@@ -482,6 +480,12 @@
   }
   .text-gray-900 {
     color: var(--color-gray-900);
+  }
+  .text-green-600 {
+    color: var(--color-green-600);
+  }
+  .text-green-950 {
+    color: var(--color-green-950);
   }
   .text-white {
     color: var(--color-white);
@@ -520,9 +524,9 @@
       }
     }
   }
-  .focus\:ring-blue-600 {
+  .focus\:ring-green-600 {
     &:focus {
-      --tw-ring-color: var(--color-blue-600);
+      --tw-ring-color: var(--color-green-600);
     }
   }
   .focus\:outline-none {
